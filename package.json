@@ -1,0 +1,24 @@
+{
+  "name": "emoji-list-fetcher",
+  "version": "1.0.0",
+  "description": "fetches emoji data, with keywords, from unicode.org",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alirawashdeh/emoji-list-fetcher.git"
+  },
+  "author": "Ali Rawashdeh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alirawashdeh/emoji-list-fetcher/issues"
+  },
+  "homepage": "https://github.com/alirawashdeh/emoji-list-fetcher#readme",
+  "dependencies": {
+    "jsdom": "^16.4.0",
+    "node-fetch": "^2.6.1"
+  }
+}
